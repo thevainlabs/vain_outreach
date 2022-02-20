@@ -1,0 +1,60 @@
+.content{
+  display: flex;
+  margin-left: 17%;
+  color: #fff;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: large;
+}
+
+p{
+  font-family: 'Sulphur Point', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+margin-top: 12px;
+}
+
+.social-cont-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #171717;
+
+}
+
+.social-cont{
+  position: absolute; 
+  bottom:3%;
+}
+
+ul{
+  bottom: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+@media screen and (min-width: 620px) {
+  .social-cont {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .content{
+    margin-left: 4%;
+    /* margin-top: 12px; */
+  }
+}
