@@ -10,6 +10,9 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Icon from "./Vain-t.png";
+function refreshPage() {
+  window.location.reload(false);
+}
 
 function Navbar() {
   return (
@@ -19,7 +22,8 @@ function Navbar() {
           <div className="navbar-container container">
             <div className="navbar-logo">
               <Link
-                to="https://thevainlabs.com"
+                to="/"
+                onClick={refreshPage}
                 className="navbar-logo"
                 style={{ right: 0 }}
               >

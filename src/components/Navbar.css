@@ -14,7 +14,6 @@
   display: flex;
   justify-content: space-between;
   height: 80px;
-
 }
 
 .container {
@@ -57,14 +56,12 @@
 
 .navbar-img {
   filter: brightness(100%);
-  Top :
-48px;
-Left :
-68px
+  top: 48px;
+  left: 68px;
 }
 
 .nav-links:hover {
-  color: #F85439;
+  color: #f85439;
 }
 
 .nav-links {
@@ -135,7 +132,6 @@ Left :
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
-    
   }
 
   .menu-icon {
@@ -147,9 +143,7 @@ Left :
     font-size: 1.8rem;
     cursor: pointer;
   }
-
 }
-
 
 @media screen and (max-width: 620px) {
   .navbar-logo {
@@ -159,5 +153,4 @@ Left :
     transform: translate(25%, 50%);
     margin-left: 7px;
   }
-
 }
